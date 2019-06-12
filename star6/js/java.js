@@ -49,7 +49,7 @@ function calcShapeArea (shape){
 square.calcarea2 = function (){
     console.log(this.edgelength*this.edgelength);
 }
-
+y
 
 circle.calcarea2 = function (){
     console.log((this.radius*this.radius)*3.14159265359);

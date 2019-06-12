@@ -1,0 +1,77 @@
+.wrap{
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    
+}
+
+.game_nav{
+    height: 10%;
+    width: 80%;
+    border: 2px solid black;
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 15px;
+}
+
+.nav_btn{
+    height: inherit;
+    
+}
+
+.game_board{
+    height: 80%;
+    width: 80%;
+    /* border: 2px solid black; */
+    margin-top: 3vh;
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+.card_row{
+    margin: 0;
+    /* border: 2px solid black; */
+    height: 30%;
+    width: 100%;
+    
+
+}
+
+.card_box{
+    
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    height: 100%;
+    width: 80%;
+    border-radius:5px;
+    border: 2px solid black;
+}
+
+.card{
+    height: 95%;
+    width: 95%;
+    background-image: url("../img/card_back.png");
+    border: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+
+}
+
+@media only screen and (max-width: 600px){
+
+
+    /* body{
+        height: 80vh;
+    } */
+}
