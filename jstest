@@ -1,0 +1,25 @@
+let expect = require("chai").expect;
+
+
+
+
+function transposeArray(array, arrayLength){
+    var newArray = [];
+    for(var i = 0; i < array.length; i++){
+        newArray.push([]);
+    };
+
+    for(var i = 0; i < array.length; i++){
+        for(var j = 0; j < arrayLength; j++){
+            newArray[j].push(array[i][j]);
+        };
+    };
+
+    return newArray;
+}
+
+
+it("should be return true if its working", () => {
+    expect(transposeArray([[1,2,3],[1,2,3],[1,2,3]],3)).to.deep.equal([[1,1,1],[2,2,2],[3,3,3]]);
+});
+
