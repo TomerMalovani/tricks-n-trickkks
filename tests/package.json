@@ -1,0 +1,15 @@
+{
+  "name": "exmpleforsetup",
+  "version": "1.0.0",
+  "description": "This is a exmple for set up",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests"
+  },
+  "author": "Tomer da king",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  }
+}
